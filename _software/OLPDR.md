@@ -23,7 +23,7 @@ python CarDet/VehicleDet.py '--img_path ./CarDet/demo/demo.jpg --save_path ./Car
 ## LP Detection
 #### This is a LP detection model based on RetinaNet.
 ```
-
+python LPDet/LPDet.py
 ```
 
 
@@ -31,5 +31,5 @@ python CarDet/VehicleDet.py '--img_path ./CarDet/demo/demo.jpg --save_path ./Car
 ## LP Recognition
 #### This is a LP recognition model based on AttentionOCR
 ```
-
+python LPReg/LPReg.py
 ```

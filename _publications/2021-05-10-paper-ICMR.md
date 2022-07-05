@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2021-05-10-paper-ICMR
 excerpt: 'This paper is about license plate detection in video based scenes'
 date: 2021-05-10
-venue: 'IEEE Transactions on Pattern Analysis and Machine Intelligence'
+venue: 'ACM International Conference on Multimedia Retrieval (ICMR)'
 # paperurl: 'https://crabwq.github.io/pdf/2022%20LSV-LP_final.pdf'
 citation: '<b>X. Lu</b>, Y. Yuan, and Q. Wang, "AWFA-LPD: Adaptive Weight Feature Aggregation for Multi-frame License Plate Detection," <i>Proc. ACM International Conference on Multimedia Retrieval (ICMR)</i>, pp. 476-480, 2021.'
 ---
