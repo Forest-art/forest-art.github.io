@@ -4,9 +4,6 @@ excerpt: "This is an offline framework of license plate(LP) detection and recogn
 collection: software
 ---
 
-
-# An Offline LPDR Framework
-
 #### This is an offline framework of license plate(LP) detection and recognition, which consists of three parts including vehicle detection, LP detection and LP recognition.
 
 

@@ -5,8 +5,6 @@ collection: software
 ---
 <img src='/images/lplabel.png'><br/>
 
-#   License Plate Labeler
-
 License Plate Labeler is a labeling tool for vehicles and license plates in videos that can be quickly deployed. Supports *box labeling* and license plate *point labeling*, and this tool can also be used for target labeling in videos in other projects.
 
 
