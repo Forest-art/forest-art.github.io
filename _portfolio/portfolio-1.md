@@ -5,7 +5,7 @@ collection: portfolio
 ---
 
 ## Task
-Design circuit boards and program programming on the designated car model, and complete the car model's self-service cruise on the race track to complete a lap. The two-car chase group requires two cars to chase to complete the race. They cannot go out of bounds or collide. If they complete the overtaking task, they will receive a 5s time reward.
+Design circuit boards and program programming on the designated car model, and complete the car model's self-service cruise on the race track to complete a lap. The two-car chase group requires two cars to chase after themselves. They cannot go out of bounds or collide. If they complete the overtaking task, they will receive a 5s time reward.
 
 
 ## Our Team
