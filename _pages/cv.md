@@ -65,25 +65,6 @@ Teaching
 
 
 
-Projects and Competitions
-======
-
-
-  <ul>{% for post in site.portfolio %}
-    {% include archive-single.html %}
-  {% endfor %}</ul>
-
-
-* Smart Car Race — Two-car chase group
-National University Freescale Cup Competition Double Car Group Grand Prize.
-* Battlefield Situation Knowledge Graph
-Construct situational knowledge map based on battlefield data
-* Xi’an Food and Attraction Classification Competition—Rank:11/723
-Detailed classification of various foods and attractions in Xi’an
-
-
-
-
 
 Languages
 ======

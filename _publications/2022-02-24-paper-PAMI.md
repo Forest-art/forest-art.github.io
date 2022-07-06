@@ -25,7 +25,7 @@ labeling;
 
 ## Compare
 <img src='/images/compare.png'><br/>
-
+<img src='/images/compare2.png'><br/>
 ## Demo
 <img src='/images/demo.png'><br/>
 
