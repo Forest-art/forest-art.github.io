@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Xiaocheng Lu \ (芦肖城)"
+title                    : "Xiaocheng Lu"
 description              : "Research scientist in Bytedance AI Lab, Speech & Audio Team. Focusing on speech, NLP and music."
 repository               : "forest-art.github.io"
 google_scholar_stats_use_cdn : true
@@ -21,7 +21,7 @@ baidu_site_verification  : code-ZxFK3f4pfb
 
 # Site Author
 author:
-  name             : "Xiaocheng Lu \ (芦肖城)"
+  name             : "Xiaocheng Lu"
   avatar           : "images/profile.jpeg"
   bio              : "PEI Lab"
   location         : "Hong Kong"
