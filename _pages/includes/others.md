@@ -1,8 +1,8 @@
 
 # 📖 Educations
-- *2022.08 - Present*,  RA, School of Computing, Hong Kong Polytechnic University (PolyU), Hong Kong.
-- *2019.09 - 2022.04*, M.E, School of Computer Science, Northwestern Polytechnical University (NWPU), Xi'an.
-- *2015.09 - 2019.06*, B.E, School of Automation, Northwestern Polytechnical University (NWPU), Xi'an.
+- *2022.08 - Present*, RA, School of Computing, Hong Kong Polytechnic University (PolyU), Hong Kong.
+- *2019.09 - 2022.04*, M.E, School of Computer Science, Northwestern Polytechnical University (NWPU, 985/211), Xi'an.
+- *2015.09 - 2019.06*, B.E, School of Automation, Northwestern Polytechnical University (NWPU, 985/211), Xi'an.
 
 <!-- 
 # 💬 Invited Talks
@@ -10,6 +10,14 @@
 - *2021.06*, Audio & Speech Synthesis, Huawei internal talk
 - *2021.03*, Non-autoregressive Speech Synthesis, PaperWeekly & biendata \| [\[video\]](https://www.bilibili.com/video/BV1uf4y1t7Hr/)
 - *2020.12*, Non-autoregressive Speech Synthesis, Huawei Noah's Ark Lab internal talk -->
+
+
+# 🛠 Skills
+- English: IELTS 6.5
+- Programming Skills: Python, C/C++, Golang, Javascript, Pytorch, Tensorflow
+- Computer Basics: Computer Network, Operating System, Database (Mysql, Redis)
+- Typesetting & Graphing: TEX and friends(e.g., LATEX, Highcharts)
+- Other skills: Docker, Linux, Distributed Systems, Multi-threaded Programming, K8S, etc.
 
 # 💻 Internships
 - *2021.05 - 2021.08*, Tencent, Beijing.
