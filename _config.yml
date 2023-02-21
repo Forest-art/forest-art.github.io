@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Xiaocheng Lu"
-description              : "Research scientist in Bytedance AI Lab, Speech & Audio Team. Focusing on speech, NLP and music."
+description              : "Research Assistant in PEILab, Hong Kong Polytechnic University (PolyU)."
 repository               : "forest-art.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  : code-ZxFK3f4pfb
 author:
   name             : "Xiaocheng Lu"
   avatar           : "images/profile.jpeg"
-  bio              : "PEI Lab"
+  bio              : "PEILab"
   location         : "Hong Kong"
   employer         :
   pubmed           : 
