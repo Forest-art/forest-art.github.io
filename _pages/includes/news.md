@@ -2,4 +2,4 @@
 - *2022.12*: 🎉🎉 One paper is accepted by AAAI 2023!
 - *2022.11*: 👨🏻‍💻 The code for DFSP has been released!
 - *2022.02*: 🎉🎉 One paper is accepted by T-PAMI!
-- *2021.05*: 🎉🎉 One paper is accepted by ICMR 2022!
+- *2021.05*: 🎉🎉 One paper is accepted by ICMR 2021!
