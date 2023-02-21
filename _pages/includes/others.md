@@ -19,5 +19,9 @@
 - Typesetting & Graphing: TEX and friends(e.g., LATEX, Highcharts)
 - Other skills: Docker, Linux, Distributed Systems, Multi-threaded Programming, K8S, etc.
 
-# 💻 Internships
+# 💻 Project
+- *2021.09 - 2021.12*, Knowledge Graph Construction for Aero-engine, Wuxi.
+- *2020.04 - 2021.06*, Knowledge Graph for Battlefield Situation Assessment, Tsinghua.
+
+# 🔬 Internships
 - *2021.05 - 2021.08*, Tencent, Beijing.
