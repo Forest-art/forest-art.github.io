@@ -1,7 +1,7 @@
 # 📝 Publications 
 ## 📚 Zero/Few-Shot Learning
 
-- ``arXiv`` **X. Lu**, Z. Liu, S. Guo, J. Guo, "Decomposed Soft Prompt Guided Fusion Enhancing for Compositional Zero-Shot Learning," *arXiv preprint arXiv:2211.10681,* 2022. [[PDF]](https://arxiv.org/pdf/2211.10681.pdf)[[Code]](https://github.com/Forest-art/DFSP)
+- ``CVPR 2023`` **X. Lu**, Z. Liu, S. Guo, J. Guo, "Decomposed Soft Prompt Guided Fusion Enhancing for Compositional Zero-Shot Learning," *arXiv preprint arXiv:2211.10681,* 2022. [[PDF]](https://arxiv.org/pdf/2211.10681.pdf)[[Code]](https://github.com/Forest-art/DFSP)
 
 
 - ``AAAI 2023`` J. Guo, S. Guo, Q. Zhou, Z. Liu, **X. Lu**, F. Huo, "Graph knows unknowns: Reformulate zero-shot learning as sample-level graph recognition," *Proceedings of the Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI, CCF-A),* 2023.
