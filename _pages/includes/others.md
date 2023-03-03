@@ -1,6 +1,6 @@
 
 # 📖 Educations
-- *2022.08 - Present*, RA, School of Computing, Hong Kong Polytechnic University (PolyU), Hong Kong.
+- *2022.10 - Present*, RA, School of Computing, Hong Kong Polytechnic University (PolyU, QS65), Hong Kong.
 - *2019.09 - 2022.04*, M.E, School of Computer Science, Northwestern Polytechnical University (NWPU, 985/211), Xi'an.
 - *2015.09 - 2019.06*, B.E, School of Automation, Northwestern Polytechnical University (NWPU, 985/211), Xi'an.
 
