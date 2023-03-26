@@ -5,7 +5,7 @@
 [[PDF]](https://forest-art.github.io/_pages/includes/papers/2023CVPR_DFSP.pdf)[[Code]](https://github.com/Forest-art/DFSP)
 
 
-- ``CVPR 2023`` Z. Liu, S. Guo, <u>**X. Lu**</u>, J. Guo, J. Zhang, Y. Zeng, F. Huo, "$(ML)^2$ P-Encoder: On Exploration of Channel-class Correlation for Multi-label Zero-shot Learning," *Proceedings of Computer Vision and Pattern Recognition (CVPR, CCF-A)*, 2023.[[PDF]](https://forest-art.github.io/_pages/includes/papers/2023CVPR_ML2P.pdf)[[Code]](https://github.com/simonzmliu/cvpr23_mlzsl)
+- ``CVPR 2023`` Z. Liu, S. Guo, **<u>X. Lu</u>**, J. Guo, J. Zhang, Y. Zeng, F. Huo, "$(ML)^2$ P-Encoder: On Exploration of Channel-class Correlation for Multi-label Zero-shot Learning," *Proceedings of Computer Vision and Pattern Recognition (CVPR, CCF-A)*, 2023.[[PDF]](https://forest-art.github.io/_pages/includes/papers/2023CVPR_ML2P.pdf)[[Code]](https://github.com/simonzmliu/cvpr23_mlzsl)
 
 
 - ``AAAI 2023`` J. Guo, S. Guo, Q. Zhou, Z. Liu, <u>**X. Lu**</u>, F. Huo, "Graph knows unknowns: Reformulate zero-shot learning as sample-level graph recognition," *Proceedings of the Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI, CCF-A),* 2023.[[PDF]](https://forest-art.github.io/_pages/includes/papers/2023AAAI_GKU.pdf)
