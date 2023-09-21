@@ -1,6 +1,11 @@
 # 📝 Publications 
 ## 📚 Zero/Few-Shot Learning
 
+
+- ``arXiv 2023`` Z Liu, J Guo, **<u>X. Lu</u>**, S Guo, P Dong, J Zhang, "GBE-MLZSL: A Group Bi-Enhancement Framework for Multi-Label Zero-Shot Learning," *arXiv:2309.00923*, 2023. 
+[[PDF]](https://arxiv.org/pdf/2309.00923.pdf)
+
+
 - ``arXiv 2023`` **<u>X. Lu</u>**, Z. Liu, S. Guo, J. Guo, F. Huo, S. Bai, T. Han, "DRPT: Disentangled and Recurrent Prompt Tuning for Compositional Zero-Shot Learning," *arXiv:2305.01239*, 2023. 
 [[PDF]](https://arxiv.org/pdf/2305.01239.pdf)[[Code]](https://github.com/Forest-art/DRPT-torch)
 
