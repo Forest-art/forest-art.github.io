@@ -1,9 +1,9 @@
 
 # 📖 Educations
-- *2022.10 - Present*, RA, Computing, Hong Kong Polytechnic University (PolyU, QS65), Hong Kong. 
-Advisor: [Song Guo, IEEE Fellow](https://www4.comp.polyu.edu.hk/~cssongguo/)
-- *2019.09 - 2022.04*, M.E, Computer Science, Northwestern Polytechnical University (NWPU, 985/211), Xi'an. Advisor: [Qi Wang](https://crabwq.github.io/)
-- *2015.09 - 2019.06*, B.E, Automation, Northwestern Polytechnical University (NWPU, 985/211), Xi'an.
+- *2022.10 - Present*, RA, Computing, Hong Kong Polytechnic University ([PolyU](https://www.polyu.edu.hk/), QS65), Hong Kong. 
+Advisor: [Song Guo, IEEE Fellow](https://cse.hkust.edu.hk/~songguo/)
+- *2019.09 - 2022.04*, M.E., Computer Science, Northwestern Polytechnical University (NWPU, 985/211), Xi'an. Advisor: [Qi Wang](https://crabwq.github.io/)
+- *2015.09 - 2019.06*, B.E., Automation, Northwestern Polytechnical University (NWPU, 985/211), Xi'an.
 
 <!-- 
 # 💬 Invited Talks
