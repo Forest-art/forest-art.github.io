@@ -25,4 +25,5 @@ Advisor: [Song Guo, IEEE Fellow](https://cse.hkust.edu.hk/~songguo/)
 - *2020.04 - 2021.06*, Knowledge Graph for Battlefield Situation Assessment, Tsinghua.
 
 # 🔬 Internships
+- *2023.10 - Present*, Shanghai AiLab, Shanghai.
 - *2021.05 - 2021.08*, Tencent, Beijing.
