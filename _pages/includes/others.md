@@ -12,6 +12,9 @@ Advisor: [Song Guo, IEEE Fellow](https://cse.hkust.edu.hk/~songguo/)
 - *2021.03*, Non-autoregressive Speech Synthesis, PaperWeekly & biendata \| [\[video\]](https://www.bilibili.com/video/BV1uf4y1t7Hr/)
 - *2020.12*, Non-autoregressive Speech Synthesis, Huawei Noah's Ark Lab internal talk -->
 
+# 🔍 Regular Reviewer
+- CVPR, ACMMM, AAAI, ICLR
+- TPAMI, TSCVT
 
 # 🛠 Skills
 - English: IELTS 6.5
