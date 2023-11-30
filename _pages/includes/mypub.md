@@ -1,8 +1,9 @@
 # 📝 Publications 
 ## 📚 Zero/Few-Shot Learning
+- ``arXiv 2023`` Z. Rao, J. Guo, **<u>X. Lu</u>**, Qihua Zhou, J. Zhang, K. Wei, C. Li, S. Guo, "Attribute-Aware Representation Rectification for Generalized Zero-Shot Learning," *arXiv:2311.14750*, 2023.
+[[PDF]](https://arxiv.org/pdf/2311.14750.pdf)
 
-
-- ``arXiv 2023`` Z Liu, J Guo, **<u>X. Lu</u>**, S Guo, P Dong, J Zhang, "GBE-MLZSL: A Group Bi-Enhancement Framework for Multi-Label Zero-Shot Learning," *arXiv:2309.00923*, 2023. 
+- ``arXiv 2023`` Z. Liu, J. Guo, **<u>X. Lu</u>**, S. Guo, P. Dong, J. Zhang, "GBE-MLZSL: A Group Bi-Enhancement Framework for Multi-Label Zero-Shot Learning," *arXiv:2309.00923*, 2023. 
 [[PDF]](https://arxiv.org/pdf/2309.00923.pdf)
 
 
