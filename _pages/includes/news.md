@@ -4,6 +4,7 @@
 - ``[Review]`` *2023.06*: Serve as a reviewer for ACMMM2023
 - ``[Review]`` *2023.05*: Serve as a reviewer for T-PAMI
 - ``[Paper]`` *2023.02*: 🎉🎉 Two papers are accepted by CVPR 2023!
+- ``[Code]`` *2023.02*: 👨🏻‍💻A repo for the CZSL paper list has been released; welcome to follow.[github](https://github.com/Forest-art/Awesome-Compositional-Zero-Shot-Learning)
 - ``[Paper]`` *2022.12*: 🎉🎉 One paper is accepted by AAAI 2023!
 - ``[Code]`` *2022.11*: 👨🏻‍💻 The code for DFSP has been released!
 - ``[Paper]`` *2022.02*: 🎉🎉 One paper is accepted by T-PAMI!
