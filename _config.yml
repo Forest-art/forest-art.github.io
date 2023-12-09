@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Xiaocheng Lu"
-description              : "Incoming Ph.D@PEILab, HKUST"
+# description              : ""
 repository               : "forest-art.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  : code-ZxFK3f4pfb
 author:
   name             : "Xiaocheng Lu"
   avatar           : "images/profile.jpeg"
-  bio              : "Intern@Shanghai AiLab"
+  bio              : "PhD@HKUST, Intern@Shanghai AiLab"
   location         : "Hong Kong"
   employer         :
   pubmed           : 
