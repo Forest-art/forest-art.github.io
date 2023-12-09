@@ -1,7 +1,6 @@
 
 # 📖 Educations
-- *2023.09 - Present*, Ph.D., Computing Science and Engineering, Hong Kong University of Science and Technology ([HKUST, 香港科技大学](https://hkust.edu.hk/)), Hong Kong. Advisor: [Song Guo, IEEE Fellow](https://cse.hkust.edu.hk/~songguo/)
-Advisor: [Song Guo, IEEE Fellow/Changjiang Chair Prof](https://cse.hkust.edu.hk/~songguo/)
+- *2023.09 - Present*, Ph.D., Computer Science, Hong Kong University of Science and Technology ([HKUST, 香港科技大学](https://hkust.edu.hk/)), Hong Kong. Advisor: [Song Guo, IEEE Fellow/Changjiang Chair Prof](https://cse.hkust.edu.hk/~songguo/)
 - *2023.01 - 2023.08*, RA, Computing, Hong Kong Polytechnic University ([PolyU, 香港理工大学](https://www.polyu.edu.hk/)), Hong Kong. 
 Advisor: [Song Guo](https://cse.hkust.edu.hk/~songguo/)
 - *2019.09 - 2022.04*, M.E., Computer Science, Northwestern Polytechnical University (NWPU, 985/211), Xi'an. Advisor: [Qi Wang](https://crabwq.github.io/)
