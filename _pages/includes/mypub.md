@@ -1,5 +1,7 @@
 # 📝 Publications 
 ## 📚 Zero/Few-Shot Learning
+- ``AAAI 2024`` F. Huo, W. Xu, S. Guo, J. Guo, H. Wang, Z. Liu, **<u>X. Lu</u>**, "ProCC: Progressive Cross-primitive Compatibility for Open-World Compositional Zero-Shot Learning," *Proceedings of the Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI, CCF-A),* 2024.
+
 - ``arXiv 2023`` Z. Rao, J. Guo, **<u>X. Lu</u>**, Qihua Zhou, J. Zhang, K. Wei, C. Li, S. Guo, "Attribute-Aware Representation Rectification for Generalized Zero-Shot Learning," *arXiv:2311.14750*, 2023.
 [[PDF]](https://arxiv.org/pdf/2311.14750.pdf)
 
