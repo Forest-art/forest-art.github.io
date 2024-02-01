@@ -1,5 +1,7 @@
 # 📝 Publications 
 ## 📄 Preprints
+- ``arXiv 2023`` J. Guo, Q. Zhou, R. Li, **<u>X. Lu</u>**, Z. Liu, J. Chen, X. Xie, J. Zhang, "ParsNets: A Parsimonious Orthogonal and Low-Rank Linear Networks for Zero-Shot Learning," *arXiv:2312.09709*, 2023.
+[[PDF]](https://arxiv.org/pdf/2312.09709.pdf)
 
 - ``arXiv 2023`` Z. Rao, J. Guo, **<u>X. Lu</u>**, Qihua Zhou, J. Zhang, K. Wei, C. Li, S. Guo, "Attribute-Aware Representation Rectification for Generalized Zero-Shot Learning," *arXiv:2311.14750*, 2023.
 [[PDF]](https://arxiv.org/pdf/2311.14750.pdf)
