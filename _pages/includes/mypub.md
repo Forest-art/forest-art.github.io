@@ -14,6 +14,8 @@
 
 ## 🎙 Conferences
 
+- ``CVPR 2024`` S. Bai, J. Zhang, S. Guo, S. Li, J. Guo, J. Hou, T. Han, and **<u>X. Lu</u>**, "DiPrompT: Disentangled Prompt Tuning for Multiple Latent Domain Generalization in Federated Learning," *Proceedings of Computer Vision and Pattern Recognition (CVPR, CCF-A)*, 2024. 
+
 - ``AAAI 2024`` F. Huo, W. Xu, S. Guo, J. Guo, H. Wang, Z. Liu, **<u>X. Lu</u>**, "ProCC: Progressive Cross-primitive Compatibility for Open-World Compositional Zero-Shot Learning," *Proceedings of the Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI, CCF-A),* 2024.
 
 - ``CVPR 2023`` **<u>X. Lu</u>**, S. Guo, Z. Liu, J. Guo, "Decomposed Soft Prompt Guided Fusion Enhancing for Compositional Zero-Shot Learning," *Proceedings of Computer Vision and Pattern Recognition (CVPR, CCF-A)*, 2023. 
