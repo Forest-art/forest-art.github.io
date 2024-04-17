@@ -14,6 +14,10 @@
 
 ## 🎙 Conferences
 
+- ``IJCAI 2024`` Z. Rao, J. Guo, **<u>X. Lu</u>**, J. Liang, J. Zhang, H. Wang, K. Wei, X. Cao, "Dual Expert Distillation Network for Generalized Zero-Shot Learning,," *International Joint Conference on Artificial Intelligence (IJCAI, CCF-A)*, 2024.
+  
+- ``IJCAI 2024`` J. Guo, Q. Zhou, **<u>X. Lu</u>**, R. Li, Z. Liu, J. Zhang, B. Han, J. Chen, X. Xie, S. Guo, "ParsNets: A Parsimonious Composition of Orthogonal and Low-Rank Linear Networks for Zero-Shot Learning," *International Joint Conference on Artificial Intelligence (IJCAI, CCF-A)*, 2024.
+
 - ``CVPR 2024`` S. Bai, J. Zhang, S. Guo, S. Li, J. Guo, J. Hou, T. Han, and **<u>X. Lu</u>**, "DiPrompT: Disentangled Prompt Tuning for Multiple Latent Domain Generalization in Federated Learning," *Proceedings of Computer Vision and Pattern Recognition (CVPR, CCF-A)*, 2024. 
 
 - ``AAAI 2024`` F. Huo, W. Xu, S. Guo, J. Guo, H. Wang, Z. Liu, **<u>X. Lu</u>**, "ProCC: Progressive Cross-primitive Compatibility for Open-World Compositional Zero-Shot Learning," *Proceedings of the Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI, CCF-A),* 2024.
