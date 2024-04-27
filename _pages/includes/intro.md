@@ -3,4 +3,4 @@
 Before that, I received my **Master** degree in Artificial Intelligence, Optics, and Electronics ([iOPEN](http://iopen.nwpu.edu.cn/)), Northwestern Polytechnical University ([NWPU, 西北工业大学](https://www.nwpu.edu.cn/)), supervised by [Qi Wang](https://crabwq.github.io/), [Yuan Yuan](http://iopen.nwpu.edu.cn/info/1015/1389.htm) and [Xuelong Li](https://scholar.google.com/citations?user=ahUibskAAAAJ) professors. Also, I received a **Bachelor** degree at the School of Automation, Northwestern Polytechnical University (NWPU， 西北工业大学).
 During this period, my research areas included computer vision, image/video enhancement learning, scene text recognition, etc.
 
-Recently, my research interests include Vision/Large Language Models, Zero/Few-shot Learning, AI for Science, and Continuous Learning. If you are interested in these topics, please feel free to e-mail me. Thanks a lot!
+Recently, my research interests include AIGC, Vision/Large Language Models, Zero/Few-shot Learning, AI for Science, and Continuous Learning. If you are interested in these topics, please feel free to e-mail me. Thanks a lot!
