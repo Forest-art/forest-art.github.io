@@ -1,7 +1,240 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>AdaTok | Xiaocheng Lu</title><style>body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;line-height:1.58;color:#172033;background:#f7f8fb;margin:0}.wrap{max-width:980px;margin:0 auto;padding:44px 22px 70px}header{text-align:center}.k{color:#0f4c5c;font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}h1{font-size:44px;line-height:1.08;margin:10px 0 14px}.authors,.muted{color:#667085}.btns{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:22px 0}.btn{border:1px solid #d7dde8;background:#fff;color:#0f4c5c;border-radius:7px;padding:8px 14px;text-decoration:none;font-weight:700}section{margin-top:36px}.panel{background:white;border:1px solid #d7dde8;border-radius:8px;padding:22px}.metrics{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.m{background:white;border:1px solid #d7dde8;border-radius:8px;text-align:center;padding:18px 10px}.m b{display:block;font-size:28px;color:#0f4c5c}.fig{background:white;border:1px solid #d7dde8;border-radius:8px;padding:18px;margin:14px 0}.table{overflow-x:auto;background:white;border:1px solid #d7dde8;border-radius:8px}table{width:100%;border-collapse:collapse;min-width:680px}th,td{border-bottom:1px solid #d7dde8;padding:10px;text-align:center}th:first-child,td:first-child{text-align:left}th{background:#f1f5f9}.ours{background:#eef8f6;font-weight:700}pre{overflow:auto;background:#101828;color:#edf2f7;padding:16px;border-radius:8px}@media(max-width:820px){h1{font-size:32px}.metrics{grid-template-columns:1fr}}</style></head><body><main class="wrap"><header><div class="k">Adaptive Visual Tokenization</div><h1>AdaTok: Self-Budgeting Image Tokenization with Quality-Preserving Dynamic Tokens</h1><p class="authors"><b>Xiaocheng Lu</b>, Shuyang Guo, Xinyu Yue, Tao Han, Zhiwei Wang, Li Bai</p><p class="muted">A discrete 1D tokenizer that predicts a content-adaptive token budget in one pass.</p><div class="btns"><a class="btn" href="#results">Results</a><a class="btn" href="#bibtex">BibTeX</a></div></header><section><h2>Abstract</h2><div class="panel"><p>Image tokenizers typically encode every image with the same fixed number of tokens. AdaTok asks whether a discrete visual tokenizer can budget itself in one pass. It combines prioritized representation learning, which keeps prefixes decodable across budgets, with adaptive token allocation, which learns which prefix each image needs.</p></div></section><section><h2>Key Results</h2><div class="metrics"><div class="m"><b>1.31</b><span>rFID at 256 tokens</span></div><div class="m"><b>1.50</b><span>adaptive rFID</span></div><div class="m"><b>118</b><span>average tokens</span></div><div class="m"><b>2.1x</b><span>AR throughput gain</span></div><div class="m"><b>97M</b><span>tokenizer parameters</span></div></div></section><section><h2>Figures</h2><div class="fig"><b>Figure 1.</b> Reconstruction difficulty varies across images, motivating per-image adaptive token allocation.</div><div class="fig"><b>Figure 2.</b> AdaTok combines prioritized representation learning with adaptive token allocation. Full figure will be uploaded with the image assets.</div></section><section id="results"><h2>Main Results</h2><div class="table"><table><thead><tr><th>Tokenizer</th><th>Params</th><th>Tokens</th><th>Elastic</th><th>rFID ↓</th><th>PSNR ↑</th><th>gFID ↓</th></tr></thead><tbody><tr><td>TiTok-S</td><td>83M</td><td>128</td><td>No</td><td>1.71</td><td>17.80</td><td>1.97</td></tr><tr><td>One-D-Piece</td><td>83M</td><td>256</td><td>Yes</td><td>1.55</td><td>18.28</td><td>2.67</td></tr><tr class="ours"><td>AdaTok-Full</td><td>97M</td><td>256</td><td>Yes</td><td>1.31</td><td>18.42</td><td>2.28</td></tr><tr class="ours"><td>AdaTok-Adaptive</td><td>97M</td><td>118 avg.</td><td>Yes</td><td>1.50</td><td>17.78</td><td>-</td></tr></tbody></table></div></section><section id="bibtex"><h2>BibTeX</h2><pre>@article{lu2026adatok,
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AdaTok | Xiaocheng Lu</title>
+<style>
+:root{--ink:#172033;--muted:#667085;--line:#d8dee9;--soft:#f6f8fb;--paper:#fff;--blue:#1e5b7a;--green:#267160;--warm:#8a4b2b;--shadow:0 18px 50px rgba(20,35,60,.08)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--soft);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;line-height:1.56}
+a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:1120px;margin:0 auto;padding:42px 22px 78px}
+.hero{text-align:center;padding:18px 0 26px}
+.venue{font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--green)}
+h1{font-size:44px;line-height:1.08;margin:12px auto 14px;max-width:980px;letter-spacing:0}
+.authors{font-size:18px;margin:8px 0 4px}.affiliations{color:var(--muted);font-size:14px;max-width:820px;margin:0 auto}
+.links{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:22px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:38px;border:1px solid #b8c6d8;border-radius:7px;background:#fff;color:var(--blue);padding:8px 14px;font-weight:700}
+.btn.primary{background:var(--blue);border-color:var(--blue);color:#fff}.btn:hover{text-decoration:none;filter:brightness(.98)}
+.hero-fig{margin:28px auto 0;background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:12px;box-shadow:var(--shadow)}
+.hero-fig img,.figure img{display:block;width:100%;height:auto;margin:0 auto;border:0;border-radius:3px;background:#fff}
+.hero-fig img{width:min(100%,980px)}
+.caption{margin:10px 2px 0;color:var(--muted);font-size:14px;text-align:left}
+section{margin-top:42px}
+h2{font-size:26px;margin:0 0 14px}h3{font-size:18px;margin:0 0 8px}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:22px;box-shadow:var(--shadow)}
+.grid{display:grid;gap:14px}.grid.two{grid-template-columns:1fr 1fr}.grid.three{grid-template-columns:repeat(3,1fr)}
+.metric{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:18px;text-align:center}
+.metric strong{display:block;font-size:30px;color:var(--blue);line-height:1.1}.metric span{color:var(--muted);font-size:13px}
+.takeaways{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.takeaway{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:18px}.takeaway b{color:var(--green)}
+.figure{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:12px;box-shadow:var(--shadow)}
+.table-wrap{overflow-x:auto;background:var(--paper);border:1px solid var(--line);border-radius:8px;box-shadow:var(--shadow)}
+table{border-collapse:collapse;width:100%;min-width:920px;font-size:14px}th,td{padding:9px 10px;border-bottom:1px solid #e5eaf1;text-align:center;white-space:nowrap}th:first-child,td:first-child{text-align:left}thead th{background:#eef3f7;color:#344054}.group th{background:#f8fafc;color:#526071;font-size:13px}.ours{background:#edf8f4;font-weight:700}.note{color:var(--muted);font-size:14px;margin:10px 2px 0}
+.analysis-list{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.analysis-list article{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:18px}
+.setup{display:grid;grid-template-columns:1.2fr 1fr;gap:14px}.setup ul{margin:8px 0 0 20px;padding:0}.setup li{margin:6px 0}
+pre{overflow:auto;background:#101828;color:#edf2f7;padding:16px;border-radius:8px;font-size:13px}
+sup{font-size:11px}
+@media(max-width:820px){.wrap{padding:28px 16px 56px}h1{font-size:31px}.grid.two,.grid.three,.takeaways,.analysis-list,.setup{grid-template-columns:1fr}.authors{font-size:16px}table{font-size:13px}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header class="hero">
+    <div class="venue">NeurIPS 2026 Submission</div>
+    <h1>AdaTok: Self-Budgeting Image Tokenization with Quality-Preserving Dynamic Tokens</h1>
+    <p class="authors"><b>Xiaocheng Lu</b><sup>1</sup>, Song Guo<sup>1</sup>, Fangqi Zhu<sup>1</sup>, Tao Han<sup>1</sup></p>
+    <p class="affiliations"><sup>1</sup>Department of Computer Science and Engineering, The Hong Kong University of Science and Technology</p>
+    <div class="links">
+      <a class="btn primary" href="assets/adatok_neurips2026.pdf">PDF</a>
+      <a class="btn" href="https://openreview.net/forum?id=bXmsFyuQ0d">OpenReview</a>
+      <a class="btn" href="https://forest-art.github.io/">Homepage</a>
+    </div>
+    <figure class="hero-fig">
+      <img src="assets/figure1.jpg" alt="Motivation and Pareto frontier of AdaTok">
+      <figcaption class="caption">Figure 1. Reconstruction quality scales non-uniformly with token length across samples. AdaTok moves toward the favorable quality-efficiency region by reducing average token usage while preserving reconstruction quality.</figcaption>
+    </figure>
+  </header>
+
+  <section>
+    <h2>Abstract</h2>
+    <article class="panel">
+      <p>Image tokenizers, whether 2D-grid or 1D, share a common assumption: every image is represented by the same fixed number of tokens, regardless of its visual complexity. Image content, however, is highly heterogeneous, and a uniform budget overspends on simple scenes while underserving complex ones. We ask whether a discrete tokenizer can budget itself: decide, in one pass and without external guidance, how many visual tokens an input needs. We answer with AdaTok, a representation-allocation co-design that turns elastic reconstruction into self-budgeted discrete tokenization rather than leaving length as a deployment-time hyperparameter. AdaTok has two components: (1) Prioritized Representation Learning (PRL) imposes a coarse-to-fine ordering via nested tail masking and equips the decoder with budget-specific Multi-Head LoRA heads, resolving the semantic shift that arises when the same prefix must serve different budget regimes; (2) Adaptive Token Allocation (ATA) trains a lightweight deterministic-group GRPO policy over the candidate budget set in a single forward pass, while Dynamic Pareto Weighting balances fidelity against budget. On ImageNet-1K, AdaTok attains rFID 1.50 at an average of ~118 tokens per image, the strongest reconstruction among the discrete 1D tokenizer baselines we compare against, and delivers ~2.1x throughput in autoregressive image generation.</p>
+    </article>
+  </section>
+
+  <section>
+    <h2>Highlights</h2>
+    <div class="grid three">
+      <div class="metric"><strong>1.50</strong><span>adaptive rFID on ImageNet-1K</span></div>
+      <div class="metric"><strong>118</strong><span>average tokens per image</span></div>
+      <div class="metric"><strong>2.1x</strong><span>AR generation throughput</span></div>
+      <div class="metric"><strong>1.31</strong><span>full-budget rFID at 256 tokens</span></div>
+      <div class="metric"><strong>97M</strong><span>tokenizer parameters</span></div>
+      <div class="metric"><strong>1.1%</strong><span>extra MH-LoRA parameters</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Method</h2>
+    <div class="takeaways">
+      <article class="takeaway"><h3>Prioritized Representation Learning</h3><p>Nested Tail Masking forces early 1D tokens to carry stable semantic structure and later tokens to add reconstruction detail, making prefixes usable at multiple budgets.</p></article>
+      <article class="takeaway"><h3>Budget-Specific MH-LoRA</h3><p>Each candidate budget activates a lightweight decoder LoRA head, reducing the semantic shift that appears when the same prefix is decoded under different length regimes.</p></article>
+      <article class="takeaway"><h3>Adaptive Token Allocation</h3><p>A deterministic-group GRPO policy evaluates candidate budgets as a group for each image, then selects a token count in one forward pass without search or external guidance.</p></article>
+    </div>
+    <figure class="figure" style="margin-top:14px">
+      <img src="assets/figure2.jpg" alt="Framework of AdaTok">
+      <figcaption class="caption">Figure 2. AdaTok has two coupled modules: PRL builds length-aware discrete prefixes, while ATA learns a content-adaptive allocation policy with GRPO and Dynamic Pareto Weighting.</figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <h2>Main Results</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Tokenizer</th><th>#Params</th><th>#Codebook</th><th>#Tokens</th><th>Elastic</th><th>rFID ↓</th><th>PSNR ↑</th><th>Generator</th><th>gFID ↓</th></tr>
+        </thead>
+        <tbody>
+          <tr class="group"><th colspan="9">Fixed-budget baselines</th></tr>
+          <tr><td>VQGAN</td><td>85M</td><td>1024</td><td>256</td><td>No</td><td>7.94</td><td>19.4</td><td>LDM-8</td><td>15.78</td></tr>
+          <tr><td>MaskGIT</td><td>227M</td><td>1024</td><td>256</td><td>No</td><td>2.12</td><td>-</td><td>MaskGIT</td><td>6.18</td></tr>
+          <tr><td>LlamaGen</td><td>72M</td><td>16384</td><td>256</td><td>No</td><td>2.28</td><td>20.79</td><td>LlamaGen</td><td>3.06</td></tr>
+          <tr><td>ImageFolder</td><td>362M</td><td>4096</td><td>286</td><td>No</td><td>0.80</td><td>-</td><td>VAR-d16</td><td>2.60</td></tr>
+          <tr><td>VAR</td><td>310M</td><td>4096</td><td>680</td><td>No</td><td>0.90</td><td>-</td><td>VAR-d16</td><td>3.30</td></tr>
+          <tr><td>TiTok-S</td><td>83M</td><td>4096</td><td>128</td><td>No</td><td>1.71</td><td>17.80</td><td>MaskGIT</td><td>1.97</td></tr>
+          <tr><td>TiTok-B</td><td>204M</td><td>4096</td><td>64</td><td>No</td><td>1.70</td><td>17.13</td><td>MaskGIT</td><td>2.48</td></tr>
+          <tr><td>TiTok-L</td><td>641M</td><td>4096</td><td>32</td><td>No</td><td>2.21</td><td>15.96</td><td>MaskGIT</td><td>2.77</td></tr>
+          <tr class="group"><th colspan="9">Continuous-token adaptive baselines</th></tr>
+          <tr><td>CAT</td><td>187M</td><td>-</td><td>-</td><td>Yes</td><td>0.46</td><td>-</td><td>-</td><td>-</td></tr>
+          <tr><td>Semanticist</td><td>-</td><td>-</td><td>256</td><td>Yes</td><td>0.72</td><td>-</td><td>LlamaGen</td><td>2.57</td></tr>
+          <tr class="group"><th colspan="9">Discrete-token elastic baselines</th></tr>
+          <tr><td>FlexTok</td><td>341M</td><td>64000</td><td>32</td><td>Yes</td><td>4.20</td><td>-</td><td>FlexTok</td><td>3.83</td></tr>
+          <tr><td>ALIT</td><td>-</td><td>4096</td><td>256</td><td>Yes</td><td>8.25</td><td>-</td><td>-</td><td>-</td></tr>
+          <tr><td>One-D-Piece</td><td>83M</td><td>4096</td><td>256</td><td>Yes</td><td>1.55</td><td>18.28</td><td>MaskGIT</td><td>2.67</td></tr>
+          <tr class="ours"><td>AdaTok-Full</td><td>97M</td><td>4096</td><td>256</td><td>Yes</td><td>1.31</td><td>18.42</td><td>MaskGIT</td><td>2.28</td></tr>
+          <tr class="ours"><td>AdaTok-Adaptive</td><td>97M</td><td>4096</td><td>118 avg.</td><td>Yes</td><td>1.50</td><td>17.78</td><td>-</td><td>-</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">AdaTok-Full shows the capacity ceiling of PRL at 256 tokens. AdaTok-Adaptive uses the ATA policy to choose the per-image budget, reaching rFID 1.50 at an average of 118 tokens.</p>
+  </section>
+
+  <section>
+    <h2>Elasticity and Policy Learning</h2>
+    <figure class="figure">
+      <img src="assets/figure3_4.jpg" alt="Elastic rFID curve and ATA optimization trajectory">
+      <figcaption class="caption">Figures 3 and 4. AdaTok remains stable across the 32-256 token range and the GRPO+DPW trajectory reaches a better fidelity-budget trade-off than fixed-weight scalarization.</figcaption>
+    </figure>
+    <div class="analysis-list" style="margin-top:14px">
+      <article><h3>Elastic reconstruction</h3><p>At matched budgets, AdaTok leads the 96-256 region against similarly sized discrete elastic tokenizers and exposes a continuous rate-distortion control knob without retraining.</p></article>
+      <article><h3>One-pass allocation</h3><p>The allocation policy does not run iterative search. It compares the candidate budget set for the same image and uses group-relative advantages to remove image-difficulty bias.</p></article>
+    </div>
+  </section>
+
+  <section>
+    <h2>Ablation Study</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Case</th><th>NM</th><th>MH-LoRA</th><th>Policy</th><th>rFID ↓</th><th>Tokens</th></tr>
+        </thead>
+        <tbody>
+          <tr class="group"><th colspan="6">PRL module study</th></tr>
+          <tr><td>(a)</td><td>No</td><td>No</td><td>Fixed</td><td>1.71</td><td>128</td></tr>
+          <tr><td>(b)</td><td>Yes</td><td>No</td><td>Fixed</td><td>2.04</td><td>128</td></tr>
+          <tr class="ours"><td>(c)</td><td>Yes</td><td>Yes</td><td>Fixed</td><td>1.63</td><td>128</td></tr>
+          <tr class="group"><th colspan="6">Policy study</th></tr>
+          <tr><td>(d)</td><td>Yes</td><td>Yes</td><td>Heuristic</td><td>2.32</td><td>155.3</td></tr>
+          <tr><td>(e)</td><td>Yes</td><td>Yes</td><td>GRPO</td><td>1.58</td><td>123</td></tr>
+          <tr class="ours"><td>(f)</td><td>Yes</td><td>Yes</td><td>GRPO+DPW</td><td>1.50</td><td>118</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">NM alone hurts because a static decoder cannot interpret the same prefix at different semantic scales. MH-LoRA recovers the fixed-128 setting, and GRPO+DPW further improves both quality and average length.</p>
+  </section>
+
+  <section>
+    <h2>Matched-Budget Reconstruction</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Tokens</th><th>rFID ↓</th><th>PSNR ↑</th><th>SSIM ↑</th><th>LPIPS ↓</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>32</td><td>4.60</td><td>16.48</td><td>0.366</td><td>0.330</td></tr>
+          <tr><td>64</td><td>2.64</td><td>17.27</td><td>0.395</td><td>0.262</td></tr>
+          <tr><td>128</td><td>1.63</td><td>17.92</td><td>0.421</td><td>0.216</td></tr>
+          <tr class="ours"><td>256</td><td>1.31</td><td>18.42</td><td>0.434</td><td>0.196</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">All four metrics improve monotonically with budget. Adaptive mode reaches rFID 1.50 using fewer tokens on average than the fixed-128 decoder, showing that the learned allocator can spend tokens unevenly across images.</p>
+  </section>
+
+  <section>
+    <h2>Policy and AR Generation</h2>
+    <div class="grid two">
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Strategy</th><th>HV ↑</th><th>H(pi) ↑</th><th>rMSE ↓</th><th>Tok.</th></tr></thead>
+          <tbody>
+            <tr><td>Fixed (128)</td><td>226</td><td>0.00</td><td>0.0219</td><td>128.0</td></tr>
+            <tr><td>REINFORCE</td><td>182</td><td>0.08</td><td>0.0263</td><td>36.8</td></tr>
+            <tr><td>PPO</td><td>419</td><td>0.00</td><td>0.0197</td><td>224</td></tr>
+            <tr class="ours"><td>GRPO</td><td>1342</td><td>0.28</td><td>0.0232</td><td>118</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Tok.</th><th>Speedup ↑</th><th>Delta gFID ↓</th><th>gFID</th></tr></thead>
+          <tbody>
+            <tr><td>32</td><td>8x</td><td>+2.60</td><td>15.07</td></tr>
+            <tr><td>64</td><td>4x</td><td>+0.97</td><td>13.44</td></tr>
+            <tr class="ours"><td>128</td><td>2x</td><td>-0.34</td><td>12.13</td></tr>
+            <tr><td>256</td><td>1x</td><td>0 (ref.)</td><td>12.47</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <p class="note">GRPO provides the best hypervolume among policy baselines without an auxiliary critic. In matched-compute AR generation, shorter AdaTok sequences expose a throughput-quality trade-off; 128 tokens improves over the 256-token decode while halving sequence length.</p>
+  </section>
+
+  <section>
+    <h2>Experimental Setup</h2>
+    <div class="setup">
+      <article class="panel">
+        <h3>Data and Evaluation</h3>
+        <ul>
+          <li>Dataset: ImageNet-1K at 256x256 resolution.</li>
+          <li>Reconstruction metrics: rFID, PSNR, SSIM, and LPIPS on the standard 50K validation split.</li>
+          <li>Generation metric: gFID on 50K class-conditional samples following the ADM protocol.</li>
+          <li>Candidate budgets: {32, 64, 96, 128, 160, 192, 224, 256}.</li>
+        </ul>
+      </article>
+      <article class="panel">
+        <h3>Architecture and Training</h3>
+        <ul>
+          <li>Backbone: TiTok-S-style ViT encoder and decoder, 8 layers, dmodel=512, 8 attention heads.</li>
+          <li>Codebook: 4096 entries with latent dimension 12.</li>
+          <li>PRL: 200 epochs with AdamW, lr 1e-4, weight decay 0.05, batch size 256.</li>
+          <li>ATA: frozen tokenizer plus 10K GRPO steps; policy is a 3-layer GeLU MLP.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <h2>BibTeX</h2>
+    <pre>@article{lu2026adatok,
   title={AdaTok: Self-Budgeting Image Tokenization with Quality-Preserving Dynamic Tokens},
-  author={Lu, Xiaocheng and Guo, Shuyang and Yue, Xinyu and Han, Tao and Wang, Zhiwei and Bai, Li},
+  author={Lu, Xiaocheng and Guo, Song and Zhu, Fangqi and Han, Tao},
   year={2026},
   note={Manuscript}
-}</pre></section></main></body></html>
+}</pre>
+  </section>
+</main>
+</body>
+</html>
