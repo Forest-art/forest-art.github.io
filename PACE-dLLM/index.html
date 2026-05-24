@@ -251,8 +251,8 @@
         <p class="caption"><b>Figure 6.</b> As decoding progresses, the confidence plateau widens; cursor sliding restores the logistic fit by anchoring at the current unresolved frontier.</p>
       </div>
       <div class="figure">
-        <img src="./assets/figure7_side_by_side.gif" alt="Side-by-side Default LLaDA and PACE-dLLM decoding animation">
-        <p class="caption"><b>Figure 7.</b> Side-by-side decoding animation under the same forward-pass clock. Default LLaDA advances slowly, while PACE-dLLM moves an elastic horizon, commits multiple confident tokens per pass, and finishes the 128-token trace in 48 passes.</p>
+        <img src="./assets/figure7_three_way_decoding.gif" alt="Qwen3 AR, LLaDA default, and PACE-dLLM decoding comparison animation">
+        <p class="caption"><b>Figure 7.</b> Three-way decoding animation on a normalized 128-token trace. Qwen3-style AR decoding grows one prefix left-to-right, default LLaDA may unmask arbitrary positions, and PACE-dLLM finishes first by moving an elastic horizon and committing multiple confident tokens per pass.</p>
       </div>
     </section>
 
