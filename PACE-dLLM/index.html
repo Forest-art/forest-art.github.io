@@ -61,6 +61,7 @@
       grid-template-columns: repeat(4, 1fr);
       gap: 14px;
     }
+    .cards.why { grid-template-columns: repeat(3, 1fr); }
     .card, .metric {
       background: var(--panel);
       border: 1px solid var(--line);
@@ -159,7 +160,7 @@
 
     <section>
       <h2>Why This Works</h2>
-      <div class="grid-2">
+      <div class="cards why">
         <div class="card">
           <h3>Confidence Cliff</h3>
           <p class="muted">Top-1 confidence inside the active diffusion window forms a plateau-transition-floor structure. The fitted saturation point tells the decoder how far it is useful to look ahead.</p>
@@ -171,10 +172,6 @@
         <div class="card">
           <h3>Closed-Form Update</h3>
           <p class="muted">PACE fits a four-parameter logistic in O(|W|) scalar operations and refreshes the horizon every K=4 passes in the production setting.</p>
-        </div>
-        <div class="card">
-          <h3>Training-Free</h3>
-          <p class="muted">The method wraps released LLaDA/Dream samplers directly: no retraining, no auxiliary scoring head, no second forward pass.</p>
         </div>
       </div>
     </section>
@@ -254,8 +251,8 @@
         <p class="caption"><b>Figure 6.</b> As decoding progresses, the confidence plateau widens; cursor sliding restores the logistic fit by anchoring at the current unresolved frontier.</p>
       </div>
       <div class="figure">
-        <img src="./assets/figure7_trace.png" alt="PACE-dLLM qualitative trace">
-        <p class="caption"><b>Figure 7.</b> A GSM8K trace where PACE-dLLM adapts the horizon across steps and avoids the fixed-block failure modes.</p>
+        <img src="./assets/figure7_elastic_decoding.gif" alt="PACE-dLLM elastic decoding animation">
+        <p class="caption"><b>Figure 7.</b> Animated decoding trace. The blue cursor and cyan horizon edge slide together as PACE-dLLM refits the confidence cliff, contracts on sharp drops, expands on shallow spans, and commits multiple confident tokens per pass.</p>
       </div>
     </section>
 
